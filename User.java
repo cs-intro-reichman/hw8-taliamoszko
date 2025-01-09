@@ -24,7 +24,11 @@
         follows[1] = "Bar";
         follows[2] = "Baz";
         fCount = 3;
+        for (int i = 0; i < fCount; i++) {
+            System.out.println(follows[i]);  // **Should print "Foo", "Bar", "Baz"**
+        }
     }
+
 
     /** Returns the name of this user. */
     public String getName() {
